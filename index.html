@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>PORTAFOLIO - BENITEZ LUCAS</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!--MENU ENCABEZADO-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">LUCAS</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!--SECCION INICIO-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/cv.jpeg">
+            </div>
+            <h1>LUCAS BENITEZ</h1>
+            <h2>Tecnico en Informatica Profesional y Personal - Estudiante de Tecnicatura Superior en Desarrollo de Software</h2>
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/lucas-benitez-65324523a/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION SOBRE MI-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mi</h2>
+            <p><span>Hola, soy Lucas Benitez.</span> Actualmente estoy cursando la carrera de Tecnicatura Superior en Desarrollo de Software, con experiencia en el área contable y sistemas. Profesional responsable, con iniciativa y orientación a resultados. Busco oportunidades para crecer profesional y personalmente, aportando conocimientos técnicos y habilidades de trabajo en equipo.</p>
+
+            <div class="fila">
+                <!--datos personales-->
+                <div class="col">
+                    <h3>Contacto:</h3>
+                    <ul>
+                        <li>
+                            <strong><i class="fa-solid fa-cake-candles"></i></strong>
+                            13-12-2001
+                        </li>
+                        <li>
+                            <strong><i class="fa-solid fa-phone"></i></strong>
+                            379-4566024
+                        </li>
+                        <li>
+                            <strong><i class="fa-solid fa-envelope"></i></strong>
+                            benitezlucasebastian@gmail.com
+                        </li>
+                        <li>
+                            <strong><i class="fa-solid fa-location-dot"></i></strong>
+                            Corrientes, Corrientes Capital, Argentina, 3400
+                        </li>
+                    </ul>
+                </div> 
+            </div>
+            
+            <button>
+                <a href="curriculum-BenitezLucas..pdf">Descargar CV</a> <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!--SECCION HABILIDADES-->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>HABILIDADES</h2>
+            <div class="fila">
+                <!--HABILIDADES TECNICAS-->
+                <div class="col">
+                    <h3>Habilidades Tecnicas</h3>
+                    <div class="skill">
+                        <span><i class="fa-brands fa-html5"></i>HTML & <i class="fa-brands fa-css"></i>CSS / <i class="fa-brands fa-bootstrap"></i>BOOTSTRAP</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span><i class="fa-brands fa-js"></i>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span><i class="fa-brands fa-php"></i>PHP</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span><i class="fa-solid fa-database"></i>MYSQL</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span><i class="fa-brands fa-python"></i>Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>45%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span><i class="fa-solid fa-code"></i>C/C++</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>45%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <h3>Habilidades Profesional</h3>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                    </div>
+                    <div class="skill">
+                        <span>Comunicacion</span>
+                    </div>
+                    <div class="skill">
+                        <span>Proactivo</span>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicacion</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION CURRICULUM-->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educacion</h3>
+                    <div class="item izq">
+                        <h4>Secundaria:</h4>
+                        <h4>Técnico en Informática Personal y Profesional</h4>
+                        <span class="casa">Escuela Técnica Carmen Molina de Llano
+                        </span>
+                        <span class="fecha">2014 - 2020</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Tecnicatura Superior en Desarrollo de Software</h4>
+                        <span class="casa">Instituto Superior Carmen Molina de Llano
+                        </span>
+                        <span class="fecha">2023 - Actualmente cursando 2do año</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Licenciatura en Sistema de Informacion</h4>
+                        <span class="casa">Unne - FaCENA
+                        </span>
+                        <span class="fecha">2021 - 2022 Incompleto</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col derecha">
+                    <h3>Experiencia Laboral</h3>
+                    <div class="item der">
+                        <h3>Pasantia</h3>
+                        <h4>Area Contable</h4>
+                        <span class="casa">Jufec SA  
+                        </span>
+                        <span class="fecha">04-23 / 08-24</span>
+                        <ul>
+                            <li>Gestión de reportes de controladores fiscales para AFIP</li>
+                            <li>Configuración y alta de controladores fiscales</li>
+                            <li>Gestión de gastos de farmacia GRUPO FARMAR</li>
+                            <li>Administración de altas de proveedores</li>
+                        </ul>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Soporte Tecnico - Area Sistemas</h4>
+                        <span class="casa">Jufec SA 
+                        </span>
+                        <span class="fecha">08-24 / 10-24</span>
+                        <ul>
+                            <li>Resolución de problemas de hardware, software y redes</li>
+                            <li>Mantenimiento preventivo y correctivo de equipos informáticos</li>
+                            <li>Gestión de configuración y actualización de sistemas operativos y aplicaciones</li>
+                            <li>Documentación de incidencias y soluciones</li>
+                            <li>Colaboración en proyectos de implementación y mejora de sistemas</li>
+                        </li>
+                        </ul>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION PORTFOLIO-->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/proyectos/viandas1.png" alt="">
+                    <div class="overlay">
+                        <h3>Sistema de Gestión de Viandas Semanales</h3>
+                        <ul>
+                            <li>Desarrollo full-stack de plataforma de gestión de pedidos</li>
+                            <li>Implementación de sistema de usuarios y administrador</li>
+                            <li>Tecnologías: HTML, Framework: Boostrap, JavaScript, PHP, MySQL</li>
+                            <li>Sistema con Integración de la API de Mercado Pago</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="img/proyectos/farmacia1.png" alt="">
+                    <div class="overlay">
+                        <h3>Sistema Web de Recetas Médicas</h3>
+                        <ul>
+                            <li>Desarrollo de sistema de gestión de recetas médicas</li>
+                            <li>Base de datos relacional para almacenamiento de información</li>
+                            <li>Tecnologías: HTML, CSS, JavaScript, PHP, MySQL</li>
+                            <li>Sistema con Integración de la API de Mercado Pago</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION CONTACTO-->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!--Formulario-->
+                <div class="col">
+                    <input type="text" placeholder="Tu Nombre">
+                    <input type="text" placeholder="Numero Telefonico">
+                    <input type="text" placeholder="Correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+
+                <!--MAPA-->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Corrientes, Corrientes Capital, Argentina
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                379-4566024
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Correo: benitezlucasebastian@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--FOOTER-->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/lucas-benitez-65324523a/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
